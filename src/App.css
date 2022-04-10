@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(26, 26, 26);
+}
+
+.app {
+  color: rgb(50, 50, 50);
+  margin: 10px;
+}
+
+.story-box {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: 4px rgb(180, 0, 0) dashed;
+    height: 20%;
+    min-height: 150px;
+    max-height: 600px;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.action-box {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: 4px rgb(180, 0, 0) dashed;
+    height: 20%;
+    max-height: 600px;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.action-line {
+  padding: 8px;
+  margin: 10px;
+  border: 1px rgb(88, 88, 88) solid;
+  box-shadow: 5px 5px 5px #161616;
+}

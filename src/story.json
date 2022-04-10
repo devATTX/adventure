@@ -1,0 +1,48 @@
+[
+    { "id": 0,
+      "description":
+        "You awaken in a bed feeling refreshed from the day before. You sit up and look around the inn's run-down room for a moment before dressing and leaving for the day. As you leave through the inn door, you are greeted by a warm sunlight and clear day in the town. Where will your day lead next?",
+      "choices": [
+        { "id": 10,
+          "description": "Head to the shop."},
+        { "id": 20,
+          "description": "Head to the forest."},
+        { "id": 30,
+          "description": "Head to the tavern."}
+      ]
+    },
+    { "id": 10,
+      "description": "Down the street, you arrive at the shop.",
+      "choices": [
+        { "id": 20,
+          "description": "Head to the forest."},
+        { "id": 30,
+          "description": "Head to the tavern."},
+        { "id": 0,
+          "description": "Head to the inn to sleep."}
+      ]
+    },
+    { "id": 20,
+      "description": "Out of the town, you make it to the nearby forest.",
+      "choices": [
+        { "id": 10,
+          "description": "Head to the shop."},
+        { "id": 30,
+          "description": "Head to the tavern."},
+        { "id": 0,
+          "description": "Head to the inn to sleep."}
+      ]
+    },
+    { "id": 30,
+      "description": "You arrive at the tavern.",
+      "choices": [
+        { "id": 10,
+          "description": "Head to the shop."},
+        { "id": 20,
+          "description": "Head to the forest."},
+        {
+          "id": 0,
+          "description": "Head to the inn to sleep."}
+      ]
+    }
+  ]
